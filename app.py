@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-def handler(event,context):
-    return app 
+# def handler(event,context):
+#     return app 
 
 app.run(debug=True)
