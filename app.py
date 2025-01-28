@@ -9,4 +9,4 @@ def index():
 # def handler(event,context):
 #     return app 
 
-app.run(debug=True)
+app.run(debug=False)
