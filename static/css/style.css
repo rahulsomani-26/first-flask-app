@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f0640e;
+    color: #000;
+}
+
+.wrapper{
+   display: flex;
+}
+.wrapper h1{
+    justify-items: flex-end;
+}
